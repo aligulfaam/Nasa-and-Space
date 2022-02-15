@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/1198579.jpg");
+    text-align: center;
+    
+}
+h1, h2{
+    color: red;
+    background-color: black;
+    font-size: 30px;
+    max-width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    background-color: black;
+    color: red;
+    font-size: large;
+    display: inline-block;
+    border: solid red;
+}
+Button:hover{
+    background-color: red;
+    color: black;
+    border: solid black;
+}
+hr{
+    color: red;
+    max-width: 1000px;
+
+}
+h3{
+    color: red;
+    background-color: black;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+}
