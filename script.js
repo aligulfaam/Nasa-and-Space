@@ -3,6 +3,7 @@ var Question2;
 var Question3;
 var Question4;
 
+
 //Question 1
 function correctAnswer1(){
     Question1 = correctAnswer1;
@@ -11,10 +12,14 @@ switch(true){
         document.getElementById("triviaMessage1a").innerHTML = "Incorrect!";
     default:
         document.getElementById("triviaMessage1a").innerHTML = "Correct!";
-        document.getElementById("score").innerHTML = "1/4"
         document.getElementById("correct").style = "green";
     }
 }
+function incorrect1(){
+    document.getElementById("triviaMessage1a").innerHTML = "Incorrect!";
+}
+
+
 
 //Question 2
 function correctAnswer2(){
@@ -26,27 +31,31 @@ switch(true){
         break;
     default:
         document.getElementById("triviaMessage2b").innerHTML = "Correct!";
-        document.getElementById("score").innerHTML = "2/4";
 }
 }
+function incorrect2(){
+    document.getElementById("triviaMessage2b").innerHTML = "Incorrect!";
+}
+
 
     //Question 3
 function correctAnswer3(){
     if (correctAnswer3 = "correct"){
         document.getElementById("triviaMessage3c").innerHTML = "Correct!";
-        document.getElementById("score").innerHTML = "3/4";
-    } else { (Question4 == incorrect) 
-        document.getElementById("triviaMessage3c").innerHTML = "Incorrect!";
     }
 }
+function incorrect3(){
+    document.getElementById("triviaMessage3c").innerHTML = "Incorrect!";
+}
+
 
 
     //Question 4
 function correctAnswer4(){
     if (correctAnswer4 = correct){
         document.getElementById("triviaMessage4d").innerHTML = "Correct!";
-        document.getElementById("score").innerHTML = "4/4";
-    } else {
-        document.getElementById("triviaMessage4d").innerHTML = "Incorrect!";
     }
+}
+function incorrect4(){
+    document.getElementById("triviaMessage4d").innerHTML = "Incorrect!";
 }
